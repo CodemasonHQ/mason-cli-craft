@@ -1,6 +1,6 @@
 {
   "name": "mason-cli-craft",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Ben M @benmag",
   "bugs": "https://github.com/codemasonhq/mason-cli-craft/issues",
   "dependencies": {
