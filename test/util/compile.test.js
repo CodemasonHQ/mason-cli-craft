@@ -38,16 +38,6 @@ describe('compile', () => {
 
   test
   .do(async () => {
-    var masonJson = {
-      services: [
-        {
-          name: 'web',
-          build: '.',
-          base: 'codemasonhq/php',
-        },
-      ],
-    }
-
     const context = await compile.compileGitLabCI()
     expect(context).to.contain('stages: \n  - build')
   })
