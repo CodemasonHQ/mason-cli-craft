@@ -1,6 +1,6 @@
 {
-  "name": "mason-cli-craft",
-  "version": "0.1.0",
+  "name": "@codemason/mason-cli-craft",
+  "version": "0.0.10",
   "author": "Ben M @benmag",
   "bugs": "https://github.com/codemasonhq/mason-cli-craft/issues",
   "dependencies": {
@@ -29,7 +29,8 @@
   },
   "files": [
     "/oclif.manifest.json",
-    "/src"
+    "/src",
+    "/templates"
   ],
   "homepage": "https://github.com/codemasonhq/mason-cli-craft",
   "keywords": [
